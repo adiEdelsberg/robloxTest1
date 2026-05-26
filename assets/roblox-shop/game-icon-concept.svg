@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Galactic Animal Worlds game icon concept</title>
+  <desc id="desc">A square Roblox game icon concept with a player, galactic skateboard, dinosaur, bird, fruit, and portal.</desc>
+  <defs>
+    <radialGradient id="space" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#243bff"/>
+      <stop offset="45%" stop-color="#15113d"/>
+      <stop offset="100%" stop-color="#050512"/>
+    </radialGradient>
+    <linearGradient id="portal" x1="0" x2="1">
+      <stop offset="0%" stop-color="#21f5ff"/>
+      <stop offset="48%" stop-color="#ff45f6"/>
+      <stop offset="100%" stop-color="#fff05a"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="48" fill="url(#space)"/>
+  <g fill="#fff7a8" opacity="0.9">
+    <circle cx="70" cy="74" r="3"/>
+    <circle cx="132" cy="42" r="2"/>
+    <circle cx="418" cy="68" r="3"/>
+    <circle cx="455" cy="146" r="2"/>
+    <circle cx="58" cy="221" r="2"/>
+    <circle cx="374" cy="211" r="2"/>
+  </g>
+
+  <ellipse cx="256" cy="260" rx="150" ry="118" fill="none" stroke="url(#portal)" stroke-width="20" filter="url(#glow)"/>
+  <ellipse cx="256" cy="260" rx="105" ry="82" fill="#120a35" opacity="0.68"/>
+
+  <g transform="translate(308 126)">
+    <ellipse cx="55" cy="72" rx="70" ry="52" fill="#2bd674"/>
+    <circle cx="16" cy="58" r="12" fill="#fff"/>
+    <circle cx="20" cy="60" r="6" fill="#111"/>
+    <path d="M91 58 L128 42 L103 78 Z" fill="#ffd447"/>
+    <path d="M35 22 C52 0 85 6 104 31" fill="none" stroke="#86fffb" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="72" cy="36" r="9" fill="#ff45f6"/>
+  </g>
+
+  <g transform="translate(60 116)">
+    <path d="M38 38 C62 2 114 6 139 46 C110 37 81 41 53 60 Z" fill="#ffde45"/>
+    <path d="M74 63 C111 36 158 43 180 81 C134 72 107 82 77 110 Z" fill="#20d6ff"/>
+    <circle cx="52" cy="55" r="18" fill="#ff5b9e"/>
+    <circle cx="57" cy="50" r="5" fill="#111"/>
+  </g>
+
+  <g transform="translate(176 175)">
+    <rect x="39" y="62" width="82" height="92" rx="18" fill="#35c9ff"/>
+    <circle cx="80" cy="36" r="39" fill="#ffd17a"/>
+    <rect x="48" y="22" width="64" height="18" rx="9" fill="#33235f"/>
+    <circle cx="66" cy="39" r="5" fill="#111"/>
+    <circle cx="94" cy="39" r="5" fill="#111"/>
+    <path d="M67 56 Q80 66 94 56" fill="none" stroke="#7a3d22" stroke-width="5" stroke-linecap="round"/>
+    <rect x="8" y="76" width="44" height="22" rx="11" fill="#ffd17a"/>
+    <rect x="108" y="76" width="44" height="22" rx="11" fill="#ffd17a"/>
+    <rect x="48" y="146" width="24" height="58" rx="10" fill="#3838ff"/>
+    <rect x="88" y="146" width="24" height="58" rx="10" fill="#3838ff"/>
+  </g>
+
+  <g transform="translate(151 365)" filter="url(#glow)">
+    <path d="M0 38 C72 10 144 10 216 38 C203 58 13 58 0 38 Z" fill="#0b0d16" stroke="#21f5ff" stroke-width="8"/>
+    <path d="M35 34 C78 20 137 20 181 34" fill="none" stroke="#ff45f6" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="45" cy="52" r="16" fill="#21f5ff"/>
+    <circle cx="171" cy="52" r="16" fill="#ff45f6"/>
+  </g>
+
+  <g transform="translate(342 300)" filter="url(#glow)">
+    <circle cx="42" cy="42" r="30" fill="#ff4d6d"/>
+    <path d="M41 3 C66 18 76 43 64 70 C51 53 31 32 41 3 Z" fill="#79ff6b"/>
+    <circle cx="30" cy="31" r="7" fill="#fff1a0"/>
+  </g>
+
+  <rect x="24" y="24" width="464" height="464" rx="44" fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="8"/>
+  <text x="256" y="454" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900" fill="#fff" stroke="#060612" stroke-width="8" paint-order="stroke">
+    GALACTIC WORLDS
+  </text>
+</svg>
+

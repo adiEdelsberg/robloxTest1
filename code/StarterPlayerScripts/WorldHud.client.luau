@@ -1,0 +1,3 @@
+-- WorldHud.client.luau
+-- Level-complete state is displayed directly in the BallClient scoreboard panel.
+-- This script is intentionally left as a stub.

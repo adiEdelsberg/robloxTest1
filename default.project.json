@@ -1,0 +1,49 @@
+{
+  "name": "test1",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "code/ReplicatedStorage",
+      "Visuals": {
+        "$className": "Folder",
+        "$path": "src/shared/Visuals"
+      },
+      "NPC": {
+        "$className": "Folder",
+        "$path": "src/shared/NPC"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "code/ServerScriptService",
+      "Environment": {
+        "$className": "Folder",
+        "$path": "src/server/Environment"
+      },
+      "NPC": {
+        "$className": "Folder",
+        "$path": "src/server/NPC"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "code/ServerStorage"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "code/StarterPlayerScripts",
+        "Visuals": {
+          "$className": "Folder",
+          "$path": "src/client/Visuals"
+        },
+        "NPC": {
+          "$className": "Folder",
+          "$path": "src/client/NPC"
+        }
+      }
+    }
+  }
+}

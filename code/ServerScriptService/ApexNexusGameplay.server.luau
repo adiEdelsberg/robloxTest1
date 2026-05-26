@@ -1,0 +1,26 @@
+local Builder = require(script.Parent:WaitForChild("CreativeJumperRoom"))
+
+Builder.start({
+	order = 30,
+	name = "Apex Nexus",
+	targetKey = "ApexNexus",
+	remainingName = "ApexNexusRemaining",
+	totalName = "ApexNexusTotal",
+	cx = -2860,
+	cz = 4450,
+	hw = 84,
+	hd = 84,
+	wallH = 150,
+	shape = "hex",
+	primary = "Bright yellow",
+	secondary = "Cyan",
+	accent = "Hot pink",
+	floorColor = "Dark stone grey",
+	platformColor = "Royal purple",
+	orbitSpeed = 0.35,
+	jumperStyle = "ridge",
+	obstacleStyle = "apexPillars",
+	removeTopJumper = true,
+	removeTopObstacle = true,
+	removeTopFinishVisuals = true,
+})
